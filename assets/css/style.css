@@ -1,0 +1,69 @@
+body {
+background: #70e1f5; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #70e1f5 , #ffd194); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #70e1f5 , #ffd194); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	font-size: 40px;
+    color: darkred;
+    text-align: center;
+    font:arial;	
+    text-decoration: underline;
+}
+
+img {
+  height: 30%;
+  width: 30%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+li {
+	font-size: 30px;
+    color: darkred;
+    text-align: left;
+    font:arial;
+    text-shadow:
+    		   1px 0px #eee, 0px 1px #ccc,
+               2px 1px #eee, 1px 2px #ccc,
+               3px 2px #eee, 2px 3px #ccc,
+               4px 3px #eee, 3px 4px #ccc,
+               5px 4px #eee, 4px 5px #ccc,
+               6px 5px #eee, 5px 6px #ccc,
+               7px 6px #eee, 6px 7px #ccc,
+               8px 7px #eee, 7px 8px #ccc,
+               8px 8px #eee;
+}
+
+input {
+	width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+	box-shadow: 3px 3px 5px #888;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    color: darkred;
+    font-family: arial;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px white;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+}
+
+p{
+	font-size: 20px;
+    color: darkblue;
+    text-align: left;
+    font:arial; 
+}

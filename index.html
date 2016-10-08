@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang= "en-us" ng-app="myApp">
+	<head>
+		<title>Movie List App</title>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+			<script type="text/javascript" src="assets/javascript/app.js"></script>
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+<body>
+	<h1>Movie List App</h1>
+	<img src="http://platformer.cdn.appadvice.com/wp-content/appadvice-v2-media/2015/08/Popcorn-Movies_fc3538c493404ecf8c7071a2641b3626.jpg">
+		
+		<div ng-app="myApp" ng-controller="myCtrl">
+  		<ul>
+    		<li ng-repeat="remove in products">{{remove}}<span  ng-click="removeItem($index)"> X</span></li>
+  		</ul>
+  			<input ng-model="addMe">
+  				<button ng-click="addItem()">Add</button>
+  					<p>{{errortext}}</p>
+		</div>
+
+					<p>If you add the same movie more than once, you will get an error message.</p>
+
+</body>
+</html>
+
